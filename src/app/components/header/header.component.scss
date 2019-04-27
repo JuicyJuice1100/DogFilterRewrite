@@ -1,0 +1,28 @@
+
+// ****************************************************************************
+// Local styles
+// ****************************************************************************
+@import '../../../style-helpers/animation';
+@import '../../../style-helpers/colors';
+@import '../../../style-helpers/fonts';
+@import '../../../style-helpers/viewportHelper';
+
+.container--header {
+  z-index: 1000 !important;
+  position: fixed;
+  // top: $toolbar--height !important;
+  top: 0;
+  left: 0px;
+  height: $navbar--height;
+  min-width: calc(100vw - #{$container--padding-right} - #{$container--padding-left}) !important;
+  padding-right: $container--padding-right;
+  padding-left: $container--padding-left;
+  background-color: $light-gray;
+  -webkit-box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.18);
+  box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.18);
+  display: flex;
+  align-items: center;
+  color: $dark-gray;
+  background-color: whitesmoke;
+}

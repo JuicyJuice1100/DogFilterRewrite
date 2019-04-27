@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+// ****************************************************************************
+// Local styles
+// ****************************************************************************
+@import './style-helpers/animation';
+@import './style-helpers/colors';
+@import './style-helpers/fonts';
+@import './style-helpers/viewportHelper';
+
+.container {
+  padding-top: calc(#{$navbar--height} + #{$toolbar--height} + 0px);
+  max-width: 3000px;
+  // min-height == [window height - (padding-top + padding-bottom) - toolbar-height - (extra padding + footer padding) - footer height]
+  min-height: calc(100vh - (2*#{$navbar--height}) - #{$toolbar--height} - (2*30px) - #{$footer--height});
+  padding-right: $container--padding-right;
+  padding-left: $container--padding-left;
+  padding-bottom: $navbar--height;
+}
