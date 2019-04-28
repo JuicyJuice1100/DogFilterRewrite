@@ -3,4 +3,4 @@ export const DogConfig = {
     dogBreeds: 'https://dog.ceo/api/breeds/list',
     dogBreedImages: 'https://dog.ceo/api/breed/'
   }
-}
+};
