@@ -1,5 +1,5 @@
 // tslint:disable: ban-types
 export class DogBreed {
-  public id: String;
+  public id: number;
   public name: String;
 }
