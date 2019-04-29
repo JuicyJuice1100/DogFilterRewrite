@@ -2,3 +2,7 @@
 @import '../../../style-helpers/viewportHelper';
 @import '../../../style-helpers/animation';
 @import '../../../style-helpers/colors';
+
+.container--sidebar {
+  background-color: $dark-gray;
+}
