@@ -10,6 +10,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { DisplayComponent } from './components/display/display.component';
 import { MessagesComponent } from './components/messages/messages.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSidenavModule, MatMenuModule } from '@angular/material';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,10 @@ import { MessagesComponent } from './components/messages/messages.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    MatSidenavModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

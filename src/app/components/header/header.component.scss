@@ -23,6 +23,6 @@
   box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.18);
   display: flex;
   align-items: center;
-  color: $dark-gray;
-  background-color: whitesmoke;
+  color: map-get($config, primary-text);
+  background-color: map-get($theme, primary);
 }
